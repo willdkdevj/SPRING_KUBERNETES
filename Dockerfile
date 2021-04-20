@@ -1,4 +1,4 @@
-FROM openjdk:11-alpine
+FROM openjdk:14-alpine
 
 RUN mkdir /usr/myapp
 

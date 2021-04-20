@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: myapp
-  namespace: dev-to
+  namespace: dev-supernova
 data:
   DATABASE_SERVER_NAME: "mysql"
   DATABASE_USER_NAME: "myapp"

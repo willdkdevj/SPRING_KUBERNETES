@@ -24,7 +24,11 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="4f993142-82f5-4096-b12e-a577613a0771">
+        <schema name="k8s_java" object-types="table, column, procedure, dataset trigger, constraint, view, function, index" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="4f993142-82f5-4096-b12e-a577613a0771">
@@ -36,6 +40,9 @@
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="4f993142-82f5-4096-b12e-a577613a0771" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="4f993142-82f5-4096-b12e-a577613a0771" dataset="k8s_java.user" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
