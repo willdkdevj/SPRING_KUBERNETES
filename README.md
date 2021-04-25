@@ -217,7 +217,7 @@ spec:
     clusterIP: None
 ```
 
-<center><img width="400px" height="100px" src="/images/migrating_database.png"></center>
+<center><img width="400px" height="100px" src="/images/migrating_app.png"></center>
 
 Desta forma, para aplicar estas configurações para dentro do cluster utilizamos o seguinte comando:
 ```sh
@@ -337,8 +337,8 @@ sudo vim /etc/hosts
 Desta forma, através do arquivo de configuração [app-ingress.yaml] podemos parametrizar as rotas de nossa aplicação para expor as funcionalidades. E com o arquivo de configuração [app-service.yaml] setamos um nome para o serviço que está atrelado aos pods, neste caso, o ``myapp``.
 
 <center><img width="400px" height="150px" src="/images/ingress_framework.png"></center>
-## Agradecimentos
 
+## Agradecimentos
 Obrigado por ter acompanhado aos meus esforços para desenvolver um ambiente controlado Kubernetes para testarmos aplicações em um ambiente local antes de passá-las para o ambiente em nuvem! :octocat:
 
 Como diria um antigo mestre:
